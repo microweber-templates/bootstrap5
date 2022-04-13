@@ -1,6 +1,6 @@
 # New World
 
-New World is the Default Microweber template website prepared for online stores. Fully responsive, clean and modern design. 
+Bootstrap 5 is the Default Microweber template website prepared for online stores. Fully responsive, clean and modern design. 
 
 ## Features:
 
