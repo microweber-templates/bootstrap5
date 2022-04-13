@@ -1,7 +1,7 @@
 {
-  "name": "microweber-templates/new-world",
+  "name": "microweber-templates/bootstrap5",
   "type": "microweber-template",
-  "description": "New World",
+  "description": "Bootstrap5",
   "keywords": [
     "microweber",
     "ecommerce",
@@ -17,7 +17,7 @@
     }
   ],
   "extra": {
-    "preview_url": "http://templates.microweber.com/new-world/"
+    "preview_url": "http://templates.microweber.com/bootstrap5/"
   },
-  "target-dir": "new-world"
+  "target-dir": "bootstrap5"
 }
