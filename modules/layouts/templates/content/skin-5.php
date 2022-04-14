@@ -33,12 +33,13 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                 <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
                 <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    <module type="btn" button_style="btn btn-primary btn-lg px-4 me-md-2 fw-bold" button_text="Primary button"/>
+                    <module type="btn" button_style="btn btn-outline-secondary btn-lg px-4" button_text="Secondary"/>
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+                <img  class="rounded-lg-3" src="<?php print template_url(); ?>assets/img/bootstrap5/bootstrap-docs.png" width="720" alt="" >
+
             </div>
         </div>
     </div>

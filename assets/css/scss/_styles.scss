@@ -19,17 +19,11 @@ p.lead-3: 36px;
  ******************************************* */
 
 
-html {
-    font-size: var(--bodyFontSize);
-}
 
 body {
     background-color: var(--background);
 }
 
-i.mdi {
-    color: var(--primaryColor);
-}
 
 
 .header-background {
@@ -46,107 +40,6 @@ i.mdi {
     padding-top: 3.5rem;
     padding-bottom: 2.5rem;
 }
-
-
-body, p , h1, h2, h3, h4, h5, h6, .navbar .logo-text {
-    font-family: var(--fontFamily);
-    font-display: swap;
-    text-align: var(--body-text-align);
-}
-
-.navbar .logo-text {
-    color: var(--primaryColor);
-}
-
-
-
-body,
-p {
-    line-height: 1.6;
-
-}
-
-p {
-   font-size: 1rem;
-    color: var(--textLight);
-}
-
-h1 {
-    @media screen and (min-width: 615px) {
-        font-size: 3.125rem;
-    }
-    color: var(--textDark);
-    font-weight: 600;
-
-}
-
-h2 {
-    @media screen and (min-width: 615px) {
-        font-size: 2.75rem;
-    }
-    color: var(--textDark);
-
-    font-weight: 600;
-
-}
-
-h3 {
-    @media screen and (min-width: 615px) {
-        font-size: 2.25rem;
-    }
-    color: var(--textDark);
-
-    font-weight: 600;
-
-}
-
-h4 {
-    @media screen and (min-width: 615px) {
-        font-size: 1.75rem;
-    }
-
-    color: var(--textDark);
-
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-
-}
-
-h5 {
-    @media screen and (min-width: 615px) {
-        font-size: 1.5rem;
-    }
-
-    color: var(--textDark);
-
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-}
-
-h6 {
-    @media screen and (min-width: 615px) {
-        font-size: 1.25rem;
-    }
-
-    color: var(--textDark);
-
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-}
-
-b, strong {
-    font-weight: 600;
-}
-
 
 .main-content {
     overflow: hidden;
@@ -684,7 +577,6 @@ $icons-sizes-list: 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 5
 
             @media screen and (min-width: 1200px) {
                 a {
-                    color: var(--menuColor) !important;
                     display: inline-block !important;
                     position: relative !important;
                 }
@@ -713,11 +605,6 @@ $icons-sizes-list: 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 5
             //
             //}
 
-            @media screen and (min-width: 991px) {
-                a:hover, a:hover span {
-                    color: var(--primaryColor)!important;
-                }
-            }
         }
     }
 
@@ -726,18 +613,8 @@ $icons-sizes-list: 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 5
     }
 }
 
-a:hover {
-    color: var(--primaryColor)!important;
-}
 
 .nav-holder {
-
-    @media screen and (min-width: 991px) {
-        a:hover, a:hover span {
-            color: var(--primaryColor)!important;
-        }
-    }
-
     .dropdown-menu {
         a {
             padding: 0.7rem 1rem !important;
@@ -785,12 +662,6 @@ a:hover {
     }
 }
 
-
-
-
-
-
-
 .slider-background-holder {
     background-size: cover;
     background-position: center center;
@@ -799,22 +670,10 @@ a:hover {
 }
 
 
-.hover-bg-body:hover .bg-body {
-    background: var(--primaryColor) !important;
-    color: var(--btnText)!important;
-
-}
-
-
-.hover-bg-body:hover .bg-body i {
-    color: var(--btnText)!important;
-}
-
 .shop-inner-gallery {
     @media screen and (min-width: 1360px) {
         display: flex;
     }
-
 
     //@media screen and (max-width: 1360px) {
     //
@@ -832,8 +691,6 @@ a:hover {
             }
         }
     }
-
-
 
     .shop-inner-gallery-thumbnails{
         @media screen and (min-width: 1360px) {

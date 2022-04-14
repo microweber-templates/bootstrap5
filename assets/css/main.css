@@ -10160,14 +10160,8 @@ p.lead-3: 36px;
 /* *******************************************
  **************** Styles *************** *
  ******************************************* */
-html {
-  font-size: var(--bodyFontSize); }
-
 body {
   background-color: var(--background); }
-
-i.mdi {
-  color: var(--primaryColor); }
 
 .header-background {
   background-color: var(--headerBg);
@@ -10178,79 +10172,6 @@ i.mdi {
   background-color: var(--footerBg) !important;
   padding-top: 3.5rem;
   padding-bottom: 2.5rem; }
-
-body, p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar .logo-text {
-  font-family: var(--fontFamily);
-  font-display: swap;
-  text-align: var(--body-text-align); }
-
-.navbar .logo-text {
-  color: var(--primaryColor); }
-
-body,
-p {
-  line-height: 1.6; }
-
-p {
-  font-size: 1rem;
-  color: var(--textLight); }
-
-h1, .h1 {
-  color: var(--textDark);
-  font-weight: 600; }
-  @media screen and (min-width: 615px) {
-    h1, .h1 {
-      font-size: 3.125rem; } }
-
-h2, .h2 {
-  color: var(--textDark);
-  font-weight: 600; }
-  @media screen and (min-width: 615px) {
-    h2, .h2 {
-      font-size: 2.75rem; } }
-
-h3, .h3 {
-  color: var(--textDark);
-  font-weight: 600; }
-  @media screen and (min-width: 615px) {
-    h3, .h3 {
-      font-size: 2.25rem; } }
-
-h4, .h4 {
-  color: var(--textDark);
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal; }
-  @media screen and (min-width: 615px) {
-    h4, .h4 {
-      font-size: 1.75rem; } }
-
-h5, .h5 {
-  color: var(--textDark);
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal; }
-  @media screen and (min-width: 615px) {
-    h5, .h5 {
-      font-size: 1.5rem; } }
-
-h6, .h6 {
-  color: var(--textDark);
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal; }
-  @media screen and (min-width: 615px) {
-    h6, .h6 {
-      font-size: 1.25rem; } }
-
-b, strong {
-  font-weight: 600; }
 
 .main-content {
   overflow: hidden; }
@@ -11450,21 +11371,11 @@ i.icon-size-88px {
     text-align: center; } }
 @media screen and (min-width: 1200px) {
   .module-menu ul li a {
-    color: var(--menuColor) !important;
     display: inline-block !important;
     position: relative !important; } }
-@media screen and (min-width: 991px) {
-  .module-menu ul li a:hover, .module-menu ul li a:hover span {
-    color: var(--primaryColor) !important; } }
 .module-menu .dropdown-toggle::after {
   border: none !important; }
 
-a:hover {
-  color: var(--primaryColor) !important; }
-
-@media screen and (min-width: 991px) {
-  .nav-holder a:hover, .nav-holder a:hover span {
-    color: var(--primaryColor) !important; } }
 .nav-holder .dropdown-menu a {
   padding: 0.7rem 1rem !important;
   font-weight: normal !important; }
@@ -11494,13 +11405,6 @@ a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   position: static; }
-
-.hover-bg-body:hover .bg-body {
-  background: var(--primaryColor) !important;
-  color: var(--btnText) !important; }
-
-.hover-bg-body:hover .bg-body i {
-  color: var(--btnText) !important; }
 
 @media screen and (min-width: 1360px) {
   .shop-inner-gallery {
@@ -11574,9 +11478,6 @@ ul.style-1 li {
     left: 0;
     position: absolute;
     top: 10px; }
-
-.module {
-  line-height: 1; }
 
 /* Ajax Loading */
 .js-ajax-loading {
@@ -12605,10 +12506,6 @@ body.page-loaded .js-ajax-loading {
 
 .mw-big-header-logo {
   width: auto; }
-
-.badge-primary {
-  color: whitesmoke;
-  background: #0055ff; }
 
 .features-skin-2 .features-skin-2-icons {
   font-size: 48px; }
