@@ -1,10 +1,10 @@
-# Template BIG
+# Bootstrap 5
 
-Fully responsive, clean and modern design. 
+A bootstrap 5 based theme Fully responsive, clean and modern design. 
 
 ## Features:
 
-* 330 Dynamic Layouts
+* 40 Dynamic Layouts
 * Sticky Menu
 * Galleries
 * Color Schemes 

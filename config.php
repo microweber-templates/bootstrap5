@@ -1,7 +1,7 @@
 <?php
 
 $config = array();
-$config['name'] = "Big Template";
+$config['name'] = "Bootstrap 5";
 $config['author'] = "Microweber CMS";
 $config['version'] = "4.3.1";
 $config['url'] = "http://microweber.com";

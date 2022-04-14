@@ -1,7 +1,7 @@
 {
-  "name": "microweber-templates/big",
+  "name": "microweber-templates/bootstrap5",
   "type": "microweber-template",
-  "description": "Big Template",
+  "description": "Bootstrap 5 template",
   "keywords": [
     "microweber",
     "ecommerce",
@@ -22,7 +22,7 @@
     "docs": "http://docs.microweber.org"
   },
   "extra": {
-    "preview_url": "https://templates.microweber.com/big/"
+    "preview_url": "https://templates.microweber.com/bootstrap5/"
   },
-  "target-dir": "big"
+  "target-dir": "bootstrap5"
 }
