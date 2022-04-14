@@ -16,6 +16,7 @@
     <module type="layouts" template="content/skin-1"/>
     <module type="layouts" template="content/skin-2"/>
     <module type="layouts" template="content/skin-3"/>
+    <module type="layouts" template="content/skin-4"/>
 
 </div>
 
