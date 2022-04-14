@@ -785,100 +785,10 @@ a:hover {
     }
 }
 
-.navbar-toggler {
-    border: 1px solid var(--primaryColor);
-    padding: 5px;
-    outline: 0 !important;
-}
-
-.header-menu-toggle-button {
-    color: var(--primaryColor)!important;
-}
-
-.form-control {
-    border-radius: 0;
-}
-
-.form-control-secondary {
-    .form-control {
-        background: #F3F3F3;
-        border-color: #F3F3F3;
-    }
-}
-
-.form-control-outline-dark {
-    .form-control {
-        border-color: $dark;
-    }
-}
-
-.form-control-transparent-5 {
-    .form-control {
-        opacity: .5;
-    }
-}
-
-.form-control- {
-    .form-control {
-        border-radius: 20px;
-        overflow: hidden;
-    }
-}
 
 
-.btn {
-    border-radius: 0;
-}
-
-.btn-primary {
-    background: var(--primaryColor)!important;
-    border-color: var(--primaryColor)!important;
-    color: var(--btnText)!important;
-
-    i.mdi {
-        color: var(--btnText);
-    }
-}
-
-.text-primary {
-    background: var(--primaryColor)!important;
-    border-color: var(--primaryColor)!important;
-    color: var(--textDark)!important;
-}
-
-.border-primary, .border {
-    border-color: var(--textDark)!important;
-}
-
-.text-dark {
-    color: var(--textDark)!important;
-}
-
-.btn-outline-primary {
-
-    color: var(--primaryColor)!important;;
-    border-color: var(--primaryColor)!important;;
-    &:hover {
-        background-color: var(--primaryColor)!important;
-        border-color: var(--primaryColor)!important;
-        color: var(--btnText)!important;
-
-        i {
-            color: $white!important;
-
-        }
-    }
-}
 
 
-a {
-    color: var(--links);
-}
-
-
-.bg-secondary {
-    background-color: var(--textDark)!important;
-}
 
 
 .slider-background-holder {

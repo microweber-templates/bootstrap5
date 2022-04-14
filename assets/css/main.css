@@ -11489,68 +11489,6 @@ a:hover {
     .nav-holder .module-menu ul li a {
       color: black !important; } }
 
-.navbar-toggler {
-  border: 1px solid var(--primaryColor);
-  padding: 5px;
-  outline: 0 !important; }
-
-.header-menu-toggle-button {
-  color: var(--primaryColor) !important; }
-
-.form-control {
-  border-radius: 0; }
-
-.form-control-secondary .form-control {
-  background: #F3F3F3;
-  border-color: #F3F3F3; }
-
-.form-control-outline-dark .form-control {
-  border-color: #212529; }
-
-.form-control-transparent-5 .form-control {
-  opacity: .5; }
-
-.form-control- .form-control {
-  border-radius: 20px;
-  overflow: hidden; }
-
-.btn {
-  border-radius: 0; }
-
-.btn-primary {
-  background: var(--primaryColor) !important;
-  border-color: var(--primaryColor) !important;
-  color: var(--btnText) !important; }
-  .btn-primary i.mdi {
-    color: var(--btnText); }
-
-.text-primary {
-  background: var(--primaryColor) !important;
-  border-color: var(--primaryColor) !important;
-  color: var(--textDark) !important; }
-
-.border-primary, .border {
-  border-color: var(--textDark) !important; }
-
-.text-dark {
-  color: var(--textDark) !important; }
-
-.btn-outline-primary {
-  color: var(--primaryColor) !important;
-  border-color: var(--primaryColor) !important; }
-  .btn-outline-primary:hover {
-    background-color: var(--primaryColor) !important;
-    border-color: var(--primaryColor) !important;
-    color: var(--btnText) !important; }
-    .btn-outline-primary:hover i {
-      color: #ffffff !important; }
-
-a {
-  color: var(--links); }
-
-.bg-secondary {
-  background-color: var(--textDark) !important; }
-
 .slider-background-holder {
   background-size: cover;
   background-position: center center;
@@ -12292,8 +12230,7 @@ body.page-loaded .js-ajax-loading {
     width: 45px;
     height: 45px;
     line-height: 40px;
-    border: 1px solid #2c2c2c;
-    border-radius: 0; }
+    border: 1px solid #2c2c2c; }
 .shop-products .product .btn.btn-primary {
   background: transparent;
   border-color: transparent;
@@ -12681,9 +12618,6 @@ body.page-loaded .js-ajax-loading {
 
 .display-webkit-box {
   display: -webkit-box; }
-
-.btn {
-  border-radius: 0; }
 
 .big-misc-skin-5-image img {
   filter: grayscale(100%); }
