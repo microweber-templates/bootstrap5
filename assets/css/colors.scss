@@ -1,0 +1,50 @@
+$font-size: 16px !default;
+$light:    #212529 !default;
+$white:    #ffffff !default;
+$dark:     #212529 !default;
+$blue:     #0044de !default;
+$gray:     #6c757d !default;
+$black:    #000000 !default;
+
+
+
+$body-bg:       $white !default;
+$primary:       $blue  !default;
+$secondary:     $gray !default;
+$textDark:      $dark !default;
+$textLight:     $light !default;
+$section:       $white !default;
+$headerBg:      $white !default;
+$footerBg:      $white !default;
+$menuColor:     $black !default;
+$btnText:       $white !default;
+$links:         $black !default;
+
+$font-family-sans-serif:      'Milliard', sans-serif !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+$font-family-base: $font-family-sans-serif;
+$bodyFontSize:     $font-size   !default;
+$body-text-align:  null !default;
+$fontFamily:       $font-family-base !default;
+//$background-gradient: #464646 !default;
+
+:root {
+    --primaryColor: #{$primary};
+    --links: #{$links};
+    --background: #{$body-bg};
+    --secodnary: #{$secondary};
+    --textDark: #{$textDark};
+    --textLight: #{$textLight};
+    --section: #{$section};
+    --bodyFontSize: #{$bodyFontSize};
+    --fontFamily: #{$fontFamily};
+    --headerBg: #{$headerBg};
+    --footerBg: #{$footerBg};
+    --menuColor: #{$menuColor};
+    --btnText: #{$btnText};
+    //--background-gradient: #{$background-gradient};
+}
+
+
+

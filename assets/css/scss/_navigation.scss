@@ -1,0 +1,25 @@
+@import "_vars";
+
+/* *******************************************
+ **************** Navigation *************** *
+ ******************************************* */
+
+.navigation-holder{
+  .navbar-brand .logo{
+    max-width: 200px !important;
+
+    &.logo-dark{
+      display: none;
+    }
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+    font-weight: 600;
+  }
+}
+
+
+.navbar-light .navbar-toggler {
+  border-color: var(--primaryColor) !important;
+}
+

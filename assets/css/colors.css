@@ -1,0 +1,16 @@
+:root {
+  --primaryColor: #0044de;
+  --links: #000000;
+  --background: #ffffff;
+  --secodnary: #6c757d;
+  --textDark: #212529;
+  --textLight: #212529;
+  --section: #ffffff;
+  --bodyFontSize: 16px;
+  --fontFamily: Milliard, sans-serif;
+  --headerBg: #ffffff;
+  --footerBg: #ffffff;
+  --menuColor: #000000;
+  --btnText: #ffffff; }
+
+/*# sourceMappingURL=colors.css.map */
