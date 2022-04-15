@@ -44,7 +44,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <small>Earth</small>
                             </li>
                             <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                 <i class="mdi mdi-calendar"</i>
                                 <small>3d</small>
                             </li>
                         </ul>
@@ -65,7 +65,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <small>Pakistan</small>
                             </li>
                             <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                 <i class="mdi mdi-calendar"</i>
                                 <small>4d</small>
                             </li>
                         </ul>
@@ -86,7 +86,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <small>California</small>
                             </li>
                             <li class="d-flex align-items-center">
-                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                                 <i class="mdi mdi-calendar"</i>
                                 <small>5d</small>
                             </li>
                         </ul>
