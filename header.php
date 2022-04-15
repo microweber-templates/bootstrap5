@@ -16,7 +16,6 @@
     <meta property="og:image" content="{content_image}"/>
     <meta property="og:description" content="{og_description}"/>
     <meta property="og:site_name" content="{og_site_name}"/>
-    <link href="https://fonts.cdnfonts.com/css/milliard" rel="stylesheet">
 
     <script>
         mw.require('icon_selector.js');

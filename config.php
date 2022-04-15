@@ -17,6 +17,10 @@ $config['is_default'] = 1; //if you set this parameter the template will be sele
 $config['framework'] = "bootstrap5";
 
 
+$config['stylesheet_compiler']['source_file'] = 'assets/css/main.scss';
+$config['stylesheet_compiler']['css_file'] = 'assets/css/main.css';
+
+
 $config['stylesheet_compiler']['settings'][] = array('type' => 'title', 'label' => 'Background colors');
 $config['stylesheet_compiler']['settings'][] = array('type' => 'delimiter');
 $config['stylesheet_compiler']['settings']['body-bg'] = array('type' => 'color', 'default' => '#fff', 'label' => 'Base background');
