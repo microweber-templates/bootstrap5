@@ -7,8 +7,7 @@
 <button id="to-top" class="btn btn-primary btn-square" style="display: block;"><i class="mdi mdi-arrow-up mdi-18px lh-1 m-0"></i></button>
 
 
-<script src="<?php print template_url(); ?>dist/main.min.js"></script>
-
+ 
 <?php include('footer_cart.php'); ?>
 
 

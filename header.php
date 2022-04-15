@@ -20,7 +20,6 @@
     <script>
         mw.require('icon_selector.js');
         mw.lib.require('bootstrap5js');
-        mw.require('<?php print template_url(); ?>assets/plugins/mw-ui/assets/ui/plugins/js/plugins.js');
         mw.lib.require('bxslider');
         mw.lib.require('slick');
         mw.iconLoader()
