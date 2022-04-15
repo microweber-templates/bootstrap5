@@ -26,7 +26,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
 ?>
 
 
-<section class="section <?php print $layout_classes; ?> edit safe-mode nodrop" field="layout-content-skin-1-<?php print $params['id'] ?>" rel="module">
+<section class="section <?php print $layout_classes; ?> edit safe-mode  " field="layout-content-skin-1-<?php print $params['id'] ?>" rel="module">
     <div class="px-4 py-5 my-5 text-center">
         <a class="mb-2" href=""><i class="mw-micon-Aerobics-3" style="font-size: 70px;"></i></a>
         <h1 class="display-5 fw-bold">Centered hero</h1>
