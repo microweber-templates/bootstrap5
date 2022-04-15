@@ -21,6 +21,7 @@
     <module type="layouts" template="features/skin-2"/>
     <module type="layouts" template="features/skin-3"/>
     <module type="layouts" template="features/skin-4"/>
+    <module type="layouts" template="pricing/skin-1"/>
 
 </div>
 
