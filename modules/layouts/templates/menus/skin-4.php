@@ -9,48 +9,33 @@
   description: Menu - skin-4
   categories: Menu
 
+
 */
 
 ?>
-<?php
-$default_contact_us_link = 'no';
-$default_header_socials = 'no';
-$default_phone_text = 'yes';
-$default_profile_link = 'yes';
-$default_search_bar = 'yes';
-$default_shopping_cart = 'yes';
-$default_multilanguage = 'no';
-$default_is_sticky_nav = 'no';
 
-include(__DIR__.'/settings_is_search_bar_front.php');
-include(__DIR__.'/settings_is_shopping_cart_front.php');
-include(__DIR__.'/settings_is_contact_us_link_front.php');
-include(__DIR__.'/settings_is_header_socials_front.php');
-include(__DIR__.'/settings_is_phone_front.php');
-include(__DIR__.'/settings_is_profile_link_front.php');
-include(__DIR__.'/settings_is_sticky_nav_front.php');
-include(__DIR__.'/settings_is_multilanguage_front.php');
-?>
 
 <section class="header-background">
+    <nav class="p-3 bg-dark nav-pills text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <module type="logo" id="header-logo-<?php print $params['id']; ?>" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"/>
 
-    <nav class="navbar navbar-expand-lg navbar-light header-background header-style-3">
-        <div class="container-fluid px-lg-5 px-0 justify-content-center">
-            <div class="row col-12 d-flex ">
-                <div class="col-auto d-flex  ms-auto order-2 order-lg-3 justify-content-md-end justify-content-center">
-                    <ul class="nav nav-navbar align-items-center justify-content-md-end justify-content-center">
-                        <?php include template_dir() . "partials/header/parts/search_bar.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/contact.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/socials.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/multilanguage.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/phone.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/profile_link.php"; ?>
-                        <?php include template_dir() . "partials/header/parts/shopping_cart.php"; ?>
+                <module type="menu" name="header_menu" id="header_menu" template="navbar" class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"/>
 
-                    </ul>
+<!--                <div class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">-->
+<!--                    --><?php //include template_dir() . "partials/header/parts/search_bar.php"; ?>
+<!--                </div>-->
+
+                <?php include template_dir() . "partials/header/parts/search_bar.php"; ?>
+
+                <div class="text-end d-flex">
+                    <module type="btn" button_text="login" button_style="btn btn-outline-light me-2"/>
+                    <module type="btn" button_text="Sign-up" button_style="btn btn-warning"/>
                 </div>
+
+
             </div>
         </div>
     </nav>
 </section>
-
