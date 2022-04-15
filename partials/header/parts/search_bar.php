@@ -1,4 +1,4 @@
-<?php if ($search_bar == 'yes'): ?>
+
     <li class="nav-item dropdown btn-search">
         <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-magnify mdi-20px"></i></a>
         <div class="dropdown-menu">
@@ -9,4 +9,4 @@
             </div>
         </div>
     </li>
-<?php endif; ?>
+

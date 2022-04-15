@@ -31,14 +31,9 @@
             .addIconSet('materialDesignIcons')
     </script>
 
-
-
-    <?php print get_template_stylesheet(); ?>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link href="<?php print template_url(); ?>assets/css/main.css" rel="stylesheet"/>
-    <link href="<?php print template_url(); ?>assets/templates_features/css/scss/styles-for-template.css" rel="stylesheet"/>
-    <script src="<?php print template_url(); ?>assets/templates_features/js/js-for-template.js"></script>
-
 
     <?php include('template_settings.php'); ?>
 </head>
