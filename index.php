@@ -17,8 +17,10 @@
     <module type="layouts" template="content/skin-2"/>
     <module type="layouts" template="content/skin-3"/>
     <module type="layouts" template="content/skin-4"/>
-    <module type="layouts" template="content/skin-5"/>
-    <module type="layouts" template="content/skin-6"/>
+    <module type="layouts" template="features/skin-1"/>
+    <module type="layouts" template="features/skin-2"/>
+    <module type="layouts" template="features/skin-3"/>
+    <module type="layouts" template="features/skin-4"/>
 
 </div>
 
