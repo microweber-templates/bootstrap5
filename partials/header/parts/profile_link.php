@@ -1,4 +1,4 @@
-<?php if ($profile_link == 'yes'): ?>
+
     <script>
         var $window = $(window), $document = $(document);
         $document.ready(function () {
@@ -34,4 +34,4 @@
             <?php endif; ?>
         </ul>
     </li>
-<?php endif; ?>
+
