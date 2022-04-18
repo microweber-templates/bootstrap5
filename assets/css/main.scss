@@ -4,3 +4,40 @@
         flex-direction: row!important;
     }
 }
+
+
+li.dropdown {
+
+    list-style: none;
+
+
+}
+
+#to-top {
+    float: right;
+    margin: 2rem;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+
+.img-as-background {
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+
+    img {
+        object-fit: cover;
+        position: absolute;
+        left: -1px;
+        right: 0;
+        z-index: 0;
+        margin: 0 auto;
+        top: 0;
+        bottom: 0;
+        min-width: calc(100% + 2px);
+        min-height: 100%;
+    }
+}

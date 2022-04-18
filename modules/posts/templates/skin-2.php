@@ -13,9 +13,10 @@ description: Posts 2
 
 <div class="blog-posts-2">
     <?php if (!empty($data)): ?>
+
+    <div class="row text-center" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
         <?php foreach ($data as $item): ?>
             <?php $categories = content_categories($item['id']);
-
             $itemCats = '';
             if ($categories) {
                 foreach ($categories as $category) {
@@ -23,30 +24,44 @@ description: Posts 2
                 }
             }
             ?>
-            <hr class="thin"/>
-            <div class="row pt-3 mb-0" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
-                <div class="col-lg-3">
-                    <?php echo $itemCats; ?>
-                    <small class="mb-2 d-block"><?php echo date('d M Y', strtotime($item['created_at'])); ?></small>
-                </div>
-                <div class="col-lg-7">
-                    <?php if (!isset($show_fields) or $show_fields == false or in_array('title', $show_fields)): ?>
-                        <a href="<?php print $item['link'] ?>" class="text-dark"><h3><?php print $item['title'] ?></h3></a>
-                    <?php endif; ?>
-                    <?php if (!isset($show_fields) or $show_fields == false or in_array('description', $show_fields)): ?>
-                        <p class="lead"><?php print $item['description'] ?></p>
-                    <?php endif; ?>
+            <div class="col-lg-4 col-md-12 mb-5">
+                <div class="card">
+                    <a href="<?php print $item['link'] ?>">
+                        <div class="img-as-background h-350">
+                            <img src="<?php print thumbnail($item['image'], 450, 500); ?>" class="img-thumbnail img-fluid card-img-top"/>
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <?php if (!isset($show_fields) or $show_fields == false or in_array('title', $show_fields)): ?>
+                            <h5 class="card-title"><?php print $item['title'] ?></h5>
+                        <?php endif; ?>
+
+
+                        <?php if (!isset($show_fields) or $show_fields == false or in_array('description', $show_fields)): ?>
+                            <p class="card-text"><?php print $item['description'] ?></p>
+                        <?php endif; ?>
+
+                        <a href="<?php print $item['link'] ?>" class="btn btn-primary">Read</a>
+                    </div>
                 </div>
             </div>
         <?php endforeach; ?>
-        <hr class="thin"/>
+    </div>
+
+        <!-- Pagination -->
+            <?php if (isset($pages_count) and $pages_count > 1 and isset($paging_param)): ?>
+                <module type="pagination" pages_count="<?php echo $pages_count; ?>" paging_param="<?php echo $paging_param; ?>"/>
+            <?php endif; ?>
     <?php endif; ?>
 </div>
 
-<div class="text-center">
-    <a href="#" class="btn btn-outline-primary   ">Learn More</a>
-</div>
 
-<?php if (isset($pages_count) and $pages_count > 1 and isset($paging_param)): ?>
-    <module type="pagination" pages_count="<?php echo $pages_count; ?>" paging_param="<?php echo $paging_param; ?>"/>
-<?php endif; ?>
+
+
+
+
+
+
+
+
+
