@@ -41,7 +41,7 @@ description: Posts 2
                             <p class="card-text"><?php print $item['description'] ?></p>
                         <?php endif; ?>
 
-                        <a href="<?php print $item['link'] ?>" class="btn btn-primary">Read</a>
+                        <a href="<?php print $item['link'] ?>" class="btn btn-primary px-4">Read</a>
                     </div>
                 </div>
             </div>
