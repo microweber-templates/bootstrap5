@@ -1,9 +1,5 @@
 <?php include template_dir() . "header.php"; ?>
 
-
-
-
-
 <?php
 $post = get_content_by_id(CONTENT_ID);
 $picture = get_picture(CONTENT_ID);
@@ -30,18 +26,11 @@ $itemTags = content_tags(CONTENT_ID);
                 <h2 class="mt-5 text-center  text-dark"><?php echo $post['title']; ?></h2>
                 <p class="text-dark text-center"><?php echo date('d M Y', strtotime($post['created_at'])); ?></p>
 
-            <div class="col-11 mx-auto">
+            <div class="col-md-10 col-12 mx-auto">
 
                 <div class="description edit dropcap typography-area" field="content" rel="content">
 
-
-
-
                 </div>
-
-
-
-
                 <module type="sharer" id="post-bottom-sharer" class="py-3 float-start" style="xwidth: calc(100% - 45px);"/>
             </div>
 
