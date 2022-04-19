@@ -27,6 +27,10 @@ li.dropdown {
     min-width: calc(100% + 2px);
     min-height: 100%; }
 
+section.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+
 /* Square */
 .square:after {
   content: "";
