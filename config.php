@@ -21,25 +21,6 @@ $config['stylesheet_compiler']['source_file'] = 'assets/css/main.scss';
 $config['stylesheet_compiler']['css_file'] = 'assets/css/main.css';
 
 
-$config['stylesheet_compiler']['settings'][] = array('type' => 'title', 'label' => 'Background colors');
-$config['stylesheet_compiler']['settings'][] = array('type' => 'delimiter');
-$config['stylesheet_compiler']['settings']['body-bg'] = array('type' => 'color', 'default' => '#fff', 'label' => 'Base background');
-$config['stylesheet_compiler']['settings']['section'] = array('type' => 'color', 'default' => '#fff', 'label' => 'Layout background');
-$config['stylesheet_compiler']['settings']['primary'] = array('type' => 'color', 'default' => '#0044de', 'label' => 'Primary color');
-
-$config['stylesheet_compiler']['settings'][] = array('type' => 'title', 'label' => 'Texts colors');
-$config['stylesheet_compiler']['settings']['textDark'] = array('type' => 'color', 'default' => '#212121', 'label' => 'Headings');
-$config['stylesheet_compiler']['settings']['textLight'] = array('type' => 'color', 'default' => '#f4f4f4', 'label' => 'Texts');
-$config['stylesheet_compiler']['settings']['btnText'] = array('type' => 'color', 'default' => '#f4f4f4', 'label' => 'Button text');
-$config['stylesheet_compiler']['settings']['links'] = array('type' => 'color', 'default' => '#000000', 'label' => 'Links color');
-
-$config['stylesheet_compiler']['settings'][] = array('type' => 'title', 'label' => 'Menus');
-$config['stylesheet_compiler']['settings']['headerBg'] = array('type' => 'color', 'default' => '#fff', 'label' => 'Header background');
-$config['stylesheet_compiler']['settings']['footerBg'] = array('type' => 'color', 'default' => '#fff', 'label' => 'Footer background');
-$config['stylesheet_compiler']['settings']['menuColor'] = array('type' => 'color', 'default' => '#000000', 'label' => 'Menu color');
-
-
-$config['stylesheet_compiler']['settings'][] = array('type' => 'delimiter');
 $config['stylesheet_compiler']['settings'][] = array('type' => 'title', 'label' => 'Font Settings');
 
 $config['stylesheet_compiler']['settings']['fontFamily'] = array('type' => 'font_selector', 'default' => 'lato', 'label' => 'Choose font for your site');

@@ -27,10 +27,30 @@ li.dropdown {
     min-width: calc(100% + 2px);
     min-height: 100%; }
 
+/* Square */
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%; }
+
+.square-75:after {
+  content: "";
+  display: block;
+  padding-bottom: 75%; }
+
+.square-50:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%; }
+
+/* Overlay */
+/* Background */
 .background-image-holder {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: static; }
+  .background-image-holder > div {
+    z-index: 3; }
 
 /*# sourceMappingURL=main.css.map */

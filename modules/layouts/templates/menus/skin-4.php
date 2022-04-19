@@ -27,7 +27,6 @@
 
 
 
-                <module type="menu" name="header_menu" id="header_menu" template="navbar" class="text-white  px-3 nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"/>
 
 
                 <div class="text-end d-flex">
