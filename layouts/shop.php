@@ -15,13 +15,15 @@ position: 4
 <?php include template_dir() . "header.php"; ?>
 
 <div class="edit" rel="content" field="content">
-    <module type="layouts" template="skin-16"/>
+    <module type="layouts" template="content/skin-6"/>
 </div>
 
 
+<section class="py-5 container-fluid">
 
-<module type="shop" />
+    <module type="shop" />
 
+</section>
 
 <div class="edit" rel="content" field="shop-after-content">
     <p class="element"></p>
