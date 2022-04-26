@@ -22,7 +22,9 @@ if (!isset($tn[1])) {
 ?>
 
 <script>
-    $('.alert').alert();
+    $( document ).ready(function() {
+        $('.alert').alert();
+    })
 </script>
 
 <?php if (!empty($data)): ?>
