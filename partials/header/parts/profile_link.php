@@ -30,7 +30,7 @@
             <?php endif; ?>
 
             <?php if (user_id()): ?>
-                <li><a class="dropdown-item" href="<?php print api_link('logout') ?>"><?php _lang("Logout", "templates/bootstrap5"); ?></a></li>
+                <li><a class="dropdown-item" href="<?php print logout_url() ?>"><?php _lang("Logout", "templates/bootstrap5"); ?></a></li>
             <?php endif; ?>
         </ul>
     </li>
