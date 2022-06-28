@@ -32,38 +32,38 @@ description: Login default
 
     <div id="user_login_holder_<?php print $params['id'] ?>">
 
-        <p><?php _lang("If you already have an account" , "templates/wine"); ?> <br/><?php _lang("you can use it to log in." , "templates/wine"); ?><br/><br/></p>
+        <p><?php _lang("If you already have an account" , "templates/bootstrap5"); ?> <br/><?php _lang("you can use it to log in." , "templates/bootstrap5"); ?><br/><br/></p>
 
         <form method="post" id="user_login_<?php print $params['id'] ?>" action="#" autocomplete="off">
 
             <div class="alert alert-mini alert-danger margin-bottom-30" style="margin: 0;display: none;"></div>
 
             <div class="form-group">
-                <label for="" class="control-label"><?php _lang("Username or E-mail" , "templates/wine"); ?></label>
-                <input class="form-control input-lg" type="text" name="username" placeholder="<?php _lang("Username or E-mail" , "templates/wine"); ?>">
+                <label for="" class="control-label"><?php _lang("Username or E-mail" , "templates/bootstrap5"); ?></label>
+                <input class="form-control input-lg" type="text" name="username" placeholder="<?php _lang("Username or E-mail" , "templates/bootstrap5"); ?>">
             </div>
 
             <div class="form-group m-t-20">
-                <label for="" class="control-label"><?php _lang("Password" , "templates/wine"); ?></label>
-                <input class="form-control input-lg" type="password" name="password" placeholder="<?php _lang("Password" , "templates/wine"); ?>">
+                <label for="" class="control-label"><?php _lang("Password" , "templates/bootstrap5"); ?></label>
+                <input class="form-control input-lg" type="password" name="password" placeholder="<?php _lang("Password" , "templates/bootstrap5"); ?>">
             </div>
 
             <?php if (isset($login_captcha_enabled) and $login_captcha_enabled): ?>
-                <label for="" class="control-label"><?php _lang("Security code" , "templates/wine"); ?></label>
+                <label for="" class="control-label"><?php _lang("Security code" , "templates/bootstrap5"); ?></label>
                 <module type="captcha"/>
             <?php endif; ?>
 
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="form-group">
-                        <label class="styled-checkbox"><?php _lang("Remember me" , "templates/wine"); ?>
+                        <label class="styled-checkbox"><?php _lang("Remember me" , "templates/bootstrap5"); ?>
                             <input type="checkbox" checked="checked">
                             <span class="checkmark"></span>
                         </label>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <p><a href="<?php print forgot_password_url(); ?>"><?php _lang("Forgot your password ?" , "templates/wine"); ?></a></p>
+                    <p><a href="<?php print forgot_password_url(); ?>"><?php _lang("Forgot your password ?" , "templates/bootstrap5"); ?></a></p>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@ description: Login default
                 <input type="hidden" value="<?php echo mw()->format->clean_xss($_GET['redirect']); ?>" name="redirect">
             <?php endif; ?>
 
-            <button type="submit" class="btn btn-outline-primary btn-lg btn-block my-3 text-center justify-content-center"><?php _lang("Login" , "templates/wine"); ?></button>
+            <button type="submit" class="btn btn-outline-primary btn-lg btn-block my-3 text-center justify-content-center"><?php _lang("Login" , "templates/bootstrap5"); ?></button>
 
         </form>
 
@@ -113,10 +113,10 @@ description: Login default
 
         <br/>
 
-        <p class="or"><span><?php _lang("or" , "templates/wine"); ?></span></p>
+        <p class="or"><span><?php _lang("or" , "templates/bootstrap5"); ?></span></p>
 
         <div class="act create">
-            <a href="<?php print register_url(); ?>" class="js-show-register-window"><span><?php _lang("Create New Account" , "templates/wine"); ?></span></a>
+            <a href="<?php print register_url(); ?>" class="js-show-register-window"><span><?php _lang("Create New Account" , "templates/bootstrap5"); ?></span></a>
         </div>
     </div>
 <?php endif; ?>
