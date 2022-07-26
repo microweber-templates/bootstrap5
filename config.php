@@ -12,7 +12,7 @@ $config['group_layouts_by_category'] = true;
 $config['group_elements_by_category'] = true;
 
 
-$config['is_default'] = 1; //if you set this parameter the template will be selected on the install screen
+$config['is_default'] = 0; //if you set this parameter the template will be selected on the install screen
 
 $config['framework'] = "bootstrap5";
 
