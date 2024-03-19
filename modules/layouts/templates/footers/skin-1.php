@@ -22,7 +22,7 @@ if (!$classes['padding_bottom']) {
     $classes['padding_bottom'] = '';
 }
 
-$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
+$layout_classes = $layout_classes ?? ''; $layout_classes .= ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 ?>
 
 <section class="  footer-background <?php print $layout_classes; ?> edit safe-mode  "
